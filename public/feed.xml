@@ -37,6 +37,11 @@
                     <source src="https://buzz-rss.vercel.app/mp4/episode-002.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
+                <p>You can also listen to the audio version below:</p>
+                <audio controls>
+                    <source src="https://buzz-rss.vercel.app/mp3/episode-002.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
             ]]></content:encoded>
             <enclosure length="0" type="audio/mpeg" url="https://buzz-rss.vercel.app/mp3/episode-002.mp3"/>
         </item>
