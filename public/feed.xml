@@ -30,8 +30,24 @@
             <description><![CDATA[Your episode description 2.]]></description>
             <content:encoded><![CDATA[
             ]]></content:encoded>
-            <enclosure length="0" type="video/mp4" url="https://buzz-rss.vercel.app/mp4/episode-002.mp4"/>
+            <enclosure length="0" type="audio/mpeg" url="https://buzz-rss.vercel.app/mp3/episode-002.mp3"/>
         </item>
+
+        <!-- Item 3 with Video -->
+<item>
+    <title><![CDATA[Your Video Episode Title]]></title>
+    <guid>3</guid>
+    <id>3</id>
+    <pubDate>Thu, 16 Jan 2024 00:00:00 GMT</pubDate>
+    <description><![CDATA[Your video episode description.]]></description>
+    <content:encoded><![CDATA[
+        <video controls width="600">
+            <source src="https://buzz-rss.vercel.app/mp4/episode-002.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    ]]></content:encoded>
+    <enclosure length="0" type="video/mp4" url="https://buzz-rss.vercel.app/mp4/episode-002.mp4"/>
+</item>
 
         <!-- Add more items as needed -->
         
