@@ -17,23 +17,15 @@
             <pubDate>Thu, 01 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Your episode description 1.]]></description>
             <content:encoded><![CDATA[
-                <h2 id="topics">Topics</h2>
-                <ul>
-                    <li>Topic 1</li>
-                    <li>Topic 2</li>
-                    <li>Topic 3</li>
-                </ul>
-                <h2 id="sponsors">Sponsors</h2>
-                <ul>
-                    <li><a href="#">Sponsor 1</a> — Description of sponsor 1.</li>
-                    <li><a href="#">Sponsor 2</a> — Description of sponsor 2.</li>
-                </ul>
-                <h2 id="links">Links</h2>
-                <ul>
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
-                </ul>
+                <video width="640" height="360" controls>
+                    <source src="https://buzz-rss.vercel.app/mp4/episode-001.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>You can also listen to the audio version below:</p>
+                <audio controls>
+                    <source src="https://buzz-rss.vercel.app/mp3/episode-001.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
             ]]></content:encoded>
             <enclosure length="0" type="audio/mpeg" url="https://buzz-rss.vercel.app/mp3/episode-001.mp3"/>
         </item>
@@ -46,23 +38,15 @@
             <pubDate>Thu, 09 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Your episode description 2.]]></description>
             <content:encoded><![CDATA[
-                <h2 id="topics">Topics</h2>
-                <ul>
-                    <li>Topic 1</li>
-                    <li>Topic 2</li>
-                    <li>Topic 3</li>
-                </ul>
-                <h2 id="sponsors">Sponsors</h2>
-                <ul>
-                    <li><a href="#">Sponsor 1</a> — Description of sponsor 1.</li>
-                    <li><a href="#">Sponsor 2</a> — Description of sponsor 2.</li>
-                </ul>
-                <h2 id="links">Links</h2>
-                <ul>
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
-                </ul>
+                <video width="640" height="360" controls>
+                    <source src="https://buzz-rss.vercel.app/mp4/episode-002.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>You can also listen to the audio version below:</p>
+                <audio controls>
+                    <source src="https://buzz-rss.vercel.app/mp3/episode-002.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
             ]]></content:encoded>
             <enclosure length="0" type="audio/mpeg" url="https://buzz-rss.vercel.app/mp3/episode-002.mp3"/>
         </item>
