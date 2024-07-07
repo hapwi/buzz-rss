@@ -1,8 +1,13 @@
 [build]
-  publish = "."
-  command = ""
+  publish = "public"
+  functions = "api"
 
 [[headers]]
   for = "/feed.xml"
   [headers.values]
     Content-Type = "application/rss+xml"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
