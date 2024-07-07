@@ -1,6 +1,6 @@
 {
   "routes": [
     { "src": "/feed.xml", "dest": "/api/feed?type=xml" },
-    { "src": "/mp4/(.*)", "dest": "/api/feed?type=video&filename=$1" }
+    { "src": "/mp4/(.*)", "dest": "/public/mp4?type=video&filename=$1" }
   ]
 }
