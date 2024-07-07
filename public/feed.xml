@@ -22,6 +22,7 @@
                 </video>
             ]]></content:encoded>
             <enclosure length="0" type="audio/mpeg" url="https://buzz-rss.vercel.app/mp3/episode-001.mp3"/>
+            <enclosure length="0" type="video/mp4" url="https://buzz-rss.vercel.app/mp4/episode-001.mp4"/>
         </item>
 
         <!-- Item 2 -->
@@ -37,6 +38,7 @@
                 </video>
             ]]></content:encoded>
             <enclosure length="0" type="audio/mpeg" url="https://buzz-rss.vercel.app/mp3/episode-002.mp3"/>
+            <enclosure length="0" type="video/mp4" url="https://buzz-rss.vercel.app/mp4/episode-001.mp4"/>
         </item>
 
         <!-- Add more items as needed -->
