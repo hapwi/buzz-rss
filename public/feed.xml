@@ -37,7 +37,7 @@
             ]]></content:encoded>
             <enclosure length="0" type="audio/mpeg" url="https://buzz-rss.vercel.app/mp3/episode-001.mp3"/>
         </item>
- 
+
         <!-- Item 2 -->
         <item>
             <title><![CDATA[Your Episode Title 2]]></title>
@@ -64,7 +64,7 @@
                     <li><a href="#">Link 3</a></li>
                 </ul>
             ]]></content:encoded>
-            <enclosure length="0" type="audio/mpeg" url="https://your-vercel-project.vercel.app/mp3/episode-002.mp3"/>
+            <enclosure length="0" type="audio/mpeg" url="https://buzz-rss.vercel.app/mp3/episode-002.mp3"/>
         </item>
 
         <!-- Add more items as needed -->
