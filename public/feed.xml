@@ -1,28 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
     <channel>
         <title>Buzz Boys</title>
         <link>https://buzzboyz.vercel.app/</link>
-        <description>Your podcast description here.</description>
+        <description>Join the Buzz Boys as they explore the latest trends in technology, entertainment, and pop culture. Engaging discussions, expert interviews, and lots of laughs!</description>
         <lastBuildDate>Sat, 06 Jul 2024 23:16:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <copyright>© 2024 Buzz Boys</copyright>
+        <itunes:author>Buzz Boys Team</itunes:author>
+        <itunes:category text="Technology"/>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:image href="https://buzzboyz.vercel.app/podcast-cover.jpg"/>
         
-        <!-- Item 1 -->
         <item>
-            <title><![CDATA[Your Episode Title 1]]></title>
-            <guid>1</guid>
-            <id>1</id>
+            <title><![CDATA[The Future of AI: Promises and Perils]]></title>
+            <guid isPermaLink="false">buzzboys-001</guid>
             <pubDate>Thu, 01 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Your episode description 1.]]></description>
+            <description><![CDATA[In this episode, we dive deep into the world of artificial intelligence, exploring its potential benefits and risks for society.]]></description>
             <content:encoded><![CDATA[
+                <p>Episode Notes:</p>
+                <ul>
+                    <li>00:00 - Introduction</li>
+                    <li>05:30 - Current state of AI</li>
+                    <li>15:45 - Interview with AI researcher Dr. Jane Smith</li>
+                    <li>35:20 - Ethical considerations</li>
+                    <li>50:10 - Wrap-up and next episode preview</li>
+                </ul>
                 <video width="640" height="360" controls>
                     <source src="https://buzz-rss.vercel.app/mp4/episode-001.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             ]]></content:encoded>
-            <enclosure length="0" type="audio/mpeg" url="https://buzz-rss.vercel.app/mp3/episode-001.mp3"/>
+            <enclosure length="52428800" type="audio/mpeg" url="https://buzz-rss.vercel.app/mp3/episode-001.mp3"/>
+            <itunes:duration>55:30</itunes:duration>
+            <itunes:image href="https://buzzboyz.vercel.app/episode-001-cover.jpg"/>
         </item>
 
         <!-- Item 2 -->
@@ -38,10 +50,6 @@
                     Your browser does not support the video tag.
                 </video>
                 <p>You can also listen to the audio version below:</p>
-                <audio controls>
-                    <source src="https://buzz-rss.vercel.app/mp3/episode-002.mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
             ]]></content:encoded>
             <enclosure length="0" type="audio/mpeg" url="https://buzz-rss.vercel.app/mp3/episode-002.mp3"/>
         </item>
