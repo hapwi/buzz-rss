@@ -35,18 +35,23 @@
 
         <!-- Item 3 with Video -->
 <item>
-    <title><![CDATA[Your Video Episode Title]]></title>
+    <title><![CDATA[Episode 002]]></title>
     <guid>3</guid>
     <id>3</id>
     <pubDate>Thu, 16 Jan 2024 00:00:00 GMT</pubDate>
-    <description><![CDATA[Your video episode description.]]></description>
+    <description><![CDATA[Your Vimeo episode description for Episode 002.]]></description>
     <content:encoded><![CDATA[
-        <video controls width="600">
-            <source src="https://buzz-rss.vercel.app/videos/episode-002.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+        <div style="padding:56.25% 0 0 0;position:relative;">
+            <iframe src="https://player.vimeo.com/video/979757144?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
+                    style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+                    title="episode-002">
+            </iframe>
+        </div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
     ]]></content:encoded>
-    <enclosure length="100" type="video/mp4" url="https://buzz-rss.vercel.app/videos/episode-002.mp4"/>
+    <enclosure length="0" type="video/vimeo" url="https://vimeo.com/979757144"/>
 </item>
 
         <!-- Add more items as needed -->
