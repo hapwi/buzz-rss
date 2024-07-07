@@ -12,8 +12,7 @@
         <!-- Item 1 -->
         <item>
             <title><![CDATA[Your Episode Title 1]]></title>
-            <guid>1</guid>
-            <id>1</id>
+            <guid isPermaLink="false">1</guid>
             <pubDate>Thu, 01 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Your episode description 1.]]></description>
             <content:encoded><![CDATA[
@@ -28,8 +27,7 @@
         <!-- Item 2 -->
         <item>
             <title><![CDATA[Your Episode Title 2]]></title>
-            <guid>2</guid>
-            <id>2</id>
+            <guid isPermaLink="false">2</guid>
             <pubDate>Thu, 09 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Your episode description 2.]]></description>
             <content:encoded><![CDATA[
@@ -37,6 +35,11 @@
                     <source src="https://buzz-rss.vercel.app/mp4/episode-002.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
+                <p>You can also listen to the audio version below:</p>
+                <audio controls>
+                    <source src="https://buzz-rss.vercel.app/mp3/episode-002.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
             ]]></content:encoded>
             <enclosure length="0" type="audio/mpeg" url="https://buzz-rss.vercel.app/mp3/episode-002.mp3"/>
         </item>
