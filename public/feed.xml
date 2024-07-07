@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Your Podcast Title</title>
-        <link>https://your-podcast-link.com</link>
+        <title>Buzz Boys</title>
+        <link>https://buzzboyz.vercel.app/</link>
         <description>Your podcast description here.</description>
         <lastBuildDate>Sat, 06 Jul 2024 23:16:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
