@@ -1,32 +1,28 @@
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Buzz Boys</title>
         <link>https://buzzboyz.vercel.app/</link>
-        <description>Join the Buzz Boys as they explore the latest trends in technology, entertainment, and pop culture. Engaging discussions, expert interviews, and lots of laughs!</description>
+        <description>Your podcast description here.</description>
         <lastBuildDate>Sat, 06 Jul 2024 23:16:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
-        <copyright>© 2024 Buzz Boys</copyright>
-        <itunes:author>Buzz Boys Team</itunes:author>
-        <itunes:category text="Technology"/>
-        <itunes:explicit>false</itunes:explicit>
-        <itunes:image href="https://buzzboyz.vercel.app/podcast-cover.jpg"/>
         
+        <!-- Item 1 -->
         <item>
-            <title><![CDATA[The Future of AI: Promises and Perils]]></title>
-            <guid isPermaLink="false">buzzboys-001</guid>
+            <title><![CDATA[Your Episode Title 1]]></title>
+            <guid>1</guid>
+            <id>1</id>
             <pubDate>Thu, 01 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[In this episode, we dive deep into the world of artificial intelligence, exploring its potential benefits and risks for society.]]></description>
+            <description><![CDATA[Your episode description 1.]]></description>
             <content:encoded><![CDATA[
                 <video width="640" height="360" controls>
                     <source src="https://buzz-rss.vercel.app/mp4/episode-001.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             ]]></content:encoded>
-            <enclosure length="52428800" type="audio/mpeg" url="https://buzz-rss.vercel.app/mp3/episode-001.mp3"/>
-            <itunes:duration>55:30</itunes:duration>
-            <itunes:image href="https://buzzboyz.vercel.app/episode-001-cover.jpg"/>
+            <enclosure length="0" type="audio/mpeg" url="https://buzz-rss.vercel.app/mp3/episode-001.mp3"/>
         </item>
 
         <!-- Item 2 -->
@@ -42,6 +38,10 @@
                     Your browser does not support the video tag.
                 </video>
                 <p>You can also listen to the audio version below:</p>
+                <audio controls>
+                    <source src="https://buzz-rss.vercel.app/mp3/episode-002.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
             ]]></content:encoded>
             <enclosure length="0" type="audio/mpeg" url="https://buzz-rss.vercel.app/mp3/episode-002.mp3"/>
         </item>
