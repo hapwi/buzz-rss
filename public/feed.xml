@@ -42,11 +42,11 @@
     <description><![CDATA[Your video episode description.]]></description>
     <content:encoded><![CDATA[
         <video controls width="600">
-            <source src="https://buzz-rss.vercel.app/mp4/episode-002.mp4" type="video/mp4">
+            <source src="https://buzz-rss.vercel.app/videos/episode-002.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     ]]></content:encoded>
-    <enclosure length="100" type="video/mp4" url="https://buzz-rss.vercel.app/mp4/episode-002.mp4"/>
+    <enclosure length="100" type="video/mp4" url="https://buzz-rss.vercel.app/videos/episode-002.mp4"/>
 </item>
 
         <!-- Add more items as needed -->
