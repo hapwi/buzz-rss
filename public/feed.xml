@@ -17,13 +17,17 @@
     <pubDate>Tue, 09 Jul 2024 00:01:00 GMT</pubDate>
     <description><![CDATA[Braxton and Evan introduce the podcast, themselves and talk hockey!]]></description>
     <content:encoded><![CDATA[
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/CvzgHKN0k2k?si=Dr3J8MX8OmrVvwkz" 
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+            <iframe 
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                src="https://www.youtube.com/embed/CvzgHKN0k2k?si=Dr3J8MX8OmrVvwkz" 
                 title="YouTube video player" 
                 frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                 referrerpolicy="strict-origin-when-cross-origin" 
                 allowfullscreen>
-        </iframe>
+            </iframe>
+        </div>
     ]]></content:encoded>
     <enclosure length="0" type="video/youtube" url="https://www.youtube.com/watch?v=CvzgHKN0k2k"/>
     <enclosure length="20000000" type="audio/mpeg" url="https://buzz-rss.vercel.app/mp3/epi-001.mp3"/>
